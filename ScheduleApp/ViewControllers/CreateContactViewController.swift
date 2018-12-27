@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CreateContactViewController.swift
 //  ScheduleApp
 //
 //  Created by Haroldo Leite on 21/12/18.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CreateContactViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
-
-
 }
-
