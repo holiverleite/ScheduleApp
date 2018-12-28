@@ -10,4 +10,5 @@ import Foundation
 
 struct StringConstants {
     static let ContactListTitle = "Contacts" //String.localize("contact_list_title")
+    static let CreateContact = "Create Contact"
 }

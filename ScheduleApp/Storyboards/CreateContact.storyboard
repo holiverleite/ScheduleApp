@@ -17,9 +17,56 @@
                     <view key="view" contentMode="scaleToFill" id="CX7-i0-rFg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kp1-0h-U29">
+                                <rect key="frame" x="20" y="120" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hrP-F7-zJC">
+                                <rect key="frame" x="20" y="170" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WSE-lb-aao">
+                                <rect key="frame" x="20" y="220" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTX-0k-gXb">
+                                <rect key="frame" x="20" y="617" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CT7-sJ-y99"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1Kp-Ez-Lk4" firstAttribute="trailing" secondItem="kp1-0h-U29" secondAttribute="trailing" constant="20" id="2Mr-70-Ppd"/>
+                            <constraint firstItem="1Kp-Ez-Lk4" firstAttribute="trailing" secondItem="WSE-lb-aao" secondAttribute="trailing" constant="20" id="5CM-zz-lRt"/>
+                            <constraint firstItem="1Kp-Ez-Lk4" firstAttribute="trailing" secondItem="hrP-F7-zJC" secondAttribute="trailing" constant="20" id="A87-ha-N0w"/>
+                            <constraint firstItem="WSE-lb-aao" firstAttribute="leading" secondItem="1Kp-Ez-Lk4" secondAttribute="leading" constant="20" id="ACA-1U-NhP"/>
+                            <constraint firstItem="hrP-F7-zJC" firstAttribute="leading" secondItem="1Kp-Ez-Lk4" secondAttribute="leading" constant="20" id="HqP-XB-yEL"/>
+                            <constraint firstItem="hrP-F7-zJC" firstAttribute="top" secondItem="kp1-0h-U29" secondAttribute="bottom" constant="20" id="IJY-1D-nyN"/>
+                            <constraint firstItem="1Kp-Ez-Lk4" firstAttribute="bottom" secondItem="yTX-0k-gXb" secondAttribute="bottom" constant="20" id="IKn-TM-k5y"/>
+                            <constraint firstItem="1Kp-Ez-Lk4" firstAttribute="trailing" secondItem="yTX-0k-gXb" secondAttribute="trailing" constant="20" id="Nh9-3s-0zr"/>
+                            <constraint firstItem="yTX-0k-gXb" firstAttribute="leading" secondItem="1Kp-Ez-Lk4" secondAttribute="leading" constant="20" id="VnE-VY-Ci8"/>
+                            <constraint firstItem="kp1-0h-U29" firstAttribute="top" secondItem="1Kp-Ez-Lk4" secondAttribute="top" constant="100" id="YWa-da-5Kd"/>
+                            <constraint firstItem="kp1-0h-U29" firstAttribute="leading" secondItem="1Kp-Ez-Lk4" secondAttribute="leading" constant="20" id="lGS-qD-cxT"/>
+                            <constraint firstItem="WSE-lb-aao" firstAttribute="top" secondItem="hrP-F7-zJC" secondAttribute="bottom" constant="20" id="vbs-BH-Owd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1Kp-Ez-Lk4"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="hrP-F7-zJC" id="f4W-hW-hBH"/>
+                        <outlet property="finishButton" destination="yTX-0k-gXb" id="h3q-GJ-v5b"/>
+                        <outlet property="nameTextField" destination="kp1-0h-U29" id="n5V-Ra-zZv"/>
+                        <outlet property="phoneNumberTextField" destination="WSE-lb-aao" id="I2V-fs-k5n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPl-GA-haw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

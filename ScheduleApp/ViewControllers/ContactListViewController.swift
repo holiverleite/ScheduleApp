@@ -25,8 +25,9 @@ class ContactListViewController: BaseViewController {
     // MARK: - Actions
     @objc func contactCreator() {
         
-        let storyboard = UIStoryboard(name: "CreateContact", bundle: nil)
-        if let vc = storyboard.instantiateViewController(withIdentifier: "CreateContactViewController") as? CreateContactViewController {
+        let storyboard = UIStoryboard(name: StoryboardName.CreateContactStoryboard, bundle: nil)
+        
+        if let vc = storyboard.instantiateViewController(withIdentifier: ViewControllerName.CreateContact) as? CreateContactViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         }
         
