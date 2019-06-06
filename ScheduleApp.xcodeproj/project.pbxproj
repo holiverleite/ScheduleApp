@@ -97,7 +97,6 @@
 		6283375A21CD0B610097310B = {
 			isa = PBXGroup;
 			children = (
-				6230BA9821D6977E00FD3EB6 /* Models */,
 				6283376521CD0B610097310B /* ScheduleApp */,
 				6283376421CD0B610097310B /* Products */,
 				14F4F830E3A871D418DFD986 /* Pods */,
@@ -116,18 +115,18 @@
 		6283376521CD0B610097310B /* ScheduleApp */ = {
 			isa = PBXGroup;
 			children = (
-				6230BA9221D6891200FD3EB6 /* Service */,
-				62E5A70221CD1908000C03B1 /* Internationalization */,
-				62E5A6FF21CD180C000C03B1 /* Extensions */,
-				6283378021CD0F330097310B /* Utils */,
-				6283377B21CD0C8D0097310B /* BaseFiles */,
 				6283376621CD0B610097310B /* AppDelegate.swift */,
-				62E5A70821CD1E47000C03B1 /* ViewControllers */,
-				62E5A70521CD1DE5000C03B1 /* Storyboards */,
-				6283377021CD0B630097310B /* Assets.xcassets */,
 				6283377521CD0B630097310B /* Info.plist */,
 				62A064B921D6855400047818 /* GoogleService-Info.plist */,
+				6283377021CD0B630097310B /* Assets.xcassets */,
 				6283376D21CD0B610097310B /* ScheduleApp.xcdatamodeld */,
+				6283377B21CD0C8D0097310B /* BaseFiles */,
+				62E5A70821CD1E47000C03B1 /* ViewControllers */,
+				62E5A70521CD1DE5000C03B1 /* Storyboards */,
+				6283378021CD0F330097310B /* Utils */,
+				6230BA9221D6891200FD3EB6 /* Service */,
+				62E5A6FF21CD180C000C03B1 /* Extensions */,
+				6230BA9821D6977E00FD3EB6 /* Models */,
 			);
 			path = ScheduleApp;
 			sourceTree = "<group>";
@@ -159,13 +158,6 @@
 				62A064B721D658BA00047818 /* UIColorExtension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		62E5A70221CD1908000C03B1 /* Internationalization */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Internationalization;
 			sourceTree = "<group>";
 		};
 		62E5A70521CD1DE5000C03B1 /* Storyboards */ = {
